@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    padding: 30px;
+    background-color: rgb(1, 24, 12);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.switch-button {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+
+    margin-top: 40px;
+
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.pricing-card {
+
+    background-color: rgb(215, 255, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    /* parto da 1/3 meno lo spazio dei gap */
+}
+
+.pricing-card-center {
+
+    background-color: rgb(13, 74, 41);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    color: aliceblue;
+    min-width: 150px;
+}
+
+p {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.apply1 {
+    background-color: rgb(1, 24, 12);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(1, 24, 12);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.first-icon {
+    padding-left: 0px;
+}
